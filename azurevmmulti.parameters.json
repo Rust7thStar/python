@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "VMCount": {
+            "value": 3
+        },
+        "adminUsername": {
+            "value": "jwadmin"
+        },
+        "adminPassword": {
+            "value": "PurpleRain2020!"
+        },
+        "VM Name":{
+            "value": "WVD"
+        },
+        "windowsOSVersion": {
+            "value": "2016-Datacenter"
+        },
+        "vmSize": {
+            "value": "Standard_B1s"
+        },
+        "location": {
+            "value": "UK South"
+        },
+        "VNetaddressprefix": {
+            "value": "10.0.0.0/16"
+        },
+        "subnetName": {
+            "value": "Subnet1"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/28"
+        },
+        "VirtualNetworkName": {
+            "value": "DEVPVNet1"
+        },
+        "networkSecurityGroupName": {
+            "value": "default-NSG"
+        },
+        "StorageAccount": {
+            "value": "dev"
+        }
+    }
+}
